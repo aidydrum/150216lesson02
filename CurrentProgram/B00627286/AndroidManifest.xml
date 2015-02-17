@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.CBA.B00627286"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="15"/>
+    <application android:label="@string/app_name" android:icon="@drawable/my_launcher">
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="landscape"
+                android:label="Main Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".BusActivity"
+                android:label="Bus Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".BusRailActivity"
+                android:label="BusRail Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".RailActivity"
+                android:label="Rail Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ViewRAILRecord"
+                android:label="Rail Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".CycleActivity"
+                android:label="Cycle Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".PrePumpActivity"
+                android:label="PrePump Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".BusDistanceActivity"
+                android:label="Bus Distance Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".PumpCostAmountActivity"
+                android:label="CostAmount Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".PumpFuelGaugesActivity"
+                android:label="Gauges Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".PumpOdometerActivity"
+                android:label="Odometer Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ViewPumpRecord"
+                android:label="Record Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".RailDistanceActivity"
+                android:label="Record Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".BusDistanceActivity"
+                android:label="Record Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".CycleDistanceActivity"
+                android:label="Record Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".WalkCycleActivity"
+                android:label="Record Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".PumpVehChoiceActivity"
+                android:label="Vehicle Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".RailActivity"
+                android:label="Rail Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ViewRAILRecord"
+                android:label="Rail Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ViewWalkRecord"
+                android:label="WalkRecord Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".WalkActivity"
+                android:label="Walk Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".WalkCycleActivity"
+                android:label="WalkCycle Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ViewBUSRecord"
+                android:label="ViewBusRecord Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ViewCYCLERecord"
+                android:label="CycleRecord Activity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity
+                android:name=".ViewRAILRecord"
+                android:label="RailRecord Activity"
+                android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+                android:name=".WalkCycleActivity"
+                android:label="walkcycle Activity"
+                android:screenOrientation="landscape">
+        </activity>
+    </application>
+</manifest>
