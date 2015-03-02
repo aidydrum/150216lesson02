@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PumpActivity"
+                android:background="#0001" android:layout_gravity="top">
+
+    <Button
+            android:id="@+id/btn_addsRecordOdometer"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:text="@string/save"
+            android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+    </Button>
+
+    <EditText
+            android:id="@+id/editTextOdometer"
+            android:hint="Odometer / Mileometer"
+            android:textColorHint="#F3F4EC"
+            android:layout_width="171dp"
+            android:layout_height="54dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#F3F4EC"
+            android:layout_toLeftOf="@+id/btn_addsRecordOdometer" android:layout_alignParentTop="true"
+            android:layout_marginTop="43dp" android:layout_alignParentLeft="true" android:layout_marginLeft="90dp">
+    </EditText>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER: POINT A to B DISTANCE (MILES)"
+            android:textStyle="bold|italic"
+            android:id="@+id/tvAtoB_Distance"
+            android:layout_gravity="left|center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="68dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="32dp"/>
+    <EditText
+            android:layout_width="166dp"
+            android:hint="How Far?"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edtTxtWalkHowFar"
+            android:layout_gravity="left|center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="76dp"
+            android:layout_toLeftOf="@+id/btn_WalkSave"
+            android:layout_alignRight="@+id/tvAtoB_Walk_Distance"/>
+    <Button style="?android:attr/buttonStyleSmall"
+            android:id="@+id/btn_WalkSave"
+            android:layout_width="74dp"
+            android:layout_height="37dp"
+            android:text="@string/save"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tvAtoB_Distance"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="167dp"/>
+</RelativeLayout>

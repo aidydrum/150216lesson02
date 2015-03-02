@@ -1,0 +1,27 @@
+package com.CBA.B00627286;//package com.aidans.cbav1.db;
+//
+//import android.app.Application;
+//import android.content.Context;
+//
+///**
+// * Created with IntelliJ IDEA.
+// * User: anon
+// * Date: 24/07/13
+// * Time: 10:03
+// * UPDATE COMMENT ABOUT PROGRAM HERE
+// */
+//public class ApplicationContextProvider extends Application
+//{
+//   private static Context sContext;
+//
+//   @Override
+//   public void onCreate() {
+//
+//      sContext = getApplicationContext();
+//
+//   }
+//
+//   public static Context getContext() {
+//      return sContext;
+//   }
+//}

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PumpActivity"
+                android:background="#0001" android:layout_gravity="top">
+
+    <Button
+            android:id="@+id/btn_addsRecordPumpCostVolume"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="119dp"
+            android:layout_height="51dp"
+            android:text="@string/save"
+            android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true">
+    </Button>
+
+    <EditText
+            android:id="@+id/editTextCost"
+            android:layout_width="160dp"
+            android:textColor="#F3F4EC"
+            android:layout_height="wrap_content"
+            android:hint="Cost (eg) £20.00"
+            android:textColorHint="#F3F4EC"
+            android:inputType="numberDecimal"
+            android:layout_alignRight="@+id/btn_addsRecordPumpCostVolume" android:layout_alignParentTop="true"
+            android:layout_above="@+id/btn_addsRecordPumpCostVolume">
+    </EditText>
+    <EditText
+            android:id="@+id/editTextVolume"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:hint="Litres"
+            android:textColorHint="#F3F4EC"
+            android:textColor="#F3F4EC"
+            android:inputType="numberDecimal"
+            android:layout_alignParentLeft="true" android:layout_alignTop="@+id/editTextCost"
+            android:layout_above="@+id/btn_addsRecordPumpCostVolume">
+    </EditText>
+</RelativeLayout>

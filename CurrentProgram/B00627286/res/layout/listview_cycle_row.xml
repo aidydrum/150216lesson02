@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="#507642"
+              android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date       "
+                android:background="#507642"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_date"/>
+        <TextView android:id="@+id/dataCycleDate"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="00 / 00 / 00"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miles  "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_miles"/>
+        <TextView android:id="@+id/dataCycleDistance"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="000000   "
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cost £"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_cycleCost"/>
+        <TextView android:id="@+id/dataCycleCost"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="£00.00  "
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="3dp"
+                  android:orientation="horizontal"
+                  android:id="@+id/linearLayoutCycle"
+                  android:layout_gravity="left|center_vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Cost Per Mile £"
+                  android:textColor="@android:color/white"
+                  android:textStyle="bold"
+                  android:id="@+id/dataCycle_CPMile"/>
+        <TextView android:id="@+id/tvCPMileOutputCycle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="£00.00  "
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btn_deleteCycle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Delete"/>
+    </LinearLayout>
+</LinearLayout>

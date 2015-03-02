@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PumpActivity"
+                android:background="#0001" android:layout_gravity="top">
+
+    <Button
+            android:id="@+id/btn_addsRecordFuelGauge"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="133dp"
+            android:layout_height="72dp"
+            android:text="@string/save"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="startViewRecord" android:layout_alignParentLeft="true" android:layout_marginLeft="250dp">
+    </Button>
+
+    <EditText
+            android:id="@+id/editPREGauge"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:hint="BEFORE REFUEL 0 - 24"
+            android:textColorHint="#F3F4EC"
+            android:layout_width="169dp"
+            android:textColor="#F3F4EC"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_alignRight="@+id/btn_addsRecordFuelGauge"
+            android:layout_above="@+id/btn_addsRecordFuelGauge"
+            android:layout_alignLeft="@+id/btn_addsRecordFuelGauge">
+    </EditText>
+    <ImageView
+            android:layout_width="255dp"
+            android:layout_height="194dp"
+            android:id="@+id/imageGauge"
+            android:textColor="#F3F4EC"
+            android:contentDescription="imageOfGauge"
+            android:src="@drawable/bestgaugelowcaps"
+            android:layout_alignParentLeft="true" android:layout_alignTop="@+id/editPOSTgauge"
+            android:layout_alignBottom="@+id/btn_addsRecordFuelGauge">
+    </ImageView>
+    <EditText
+            android:id="@+id/editPOSTgauge"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:hint="AFTER REFILL 0 to 24"
+            android:layout_width="84dp"
+            android:textColor="#F3F4EC"
+            android:textColorHint="#F3F4EC"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/btn_addsRecordFuelGauge"
+            android:layout_alignLeft="@+id/btn_addsRecordFuelGauge"/>
+</RelativeLayout>

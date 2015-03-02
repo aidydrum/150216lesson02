@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/btnPump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/pump"
+            android:onClick="startPrePumpActivity"/>
+
+    <Button
+            android:id="@+id/btnbusrail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnPump"
+            android:layout_alignBottom="@+id/btnPump"
+            android:layout_centerHorizontal="true"
+            android:text="@string/busrail"
+            android:onClick="startBusRailActivity"/>
+
+    <Button
+            android:id="@+id/btnwalkcycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnbusrail"
+            android:layout_alignBottom="@+id/btnbusrail"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="45dp"
+            android:text="@string/walkcycle"
+            android:onClick="startWalkCycleActivity"/>
+
+    <Button
+            android:id="@+id/btnstats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnPump"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="47dp"
+            android:text="@string/stats"
+            android:onClick="startStatsActivity"/>
+
+    <Button
+            android:id="@+id/btnguide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnstats"
+            android:layout_alignBottom="@+id/btnstats"
+            android:layout_alignRight="@+id/btnwalkcycle"
+            android:text="@string/guide"
+            android:onClick="startPrePumpActivity"/>
+
+</RelativeLayout>

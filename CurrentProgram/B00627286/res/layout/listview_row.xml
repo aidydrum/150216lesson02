@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="#507642"
+              android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date   "
+                android:background="#507642"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_date"/>
+        <TextView android:id="@+id/datadate"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="00 / 00 / 00"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Car ID "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_carId"/>
+        <TextView android:id="@+id/dataCar"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="Vehicle    "
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miles  "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_miles"/>
+        <TextView android:id="@+id/dataOdom"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="000000   "
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Miles Travelled:  "
+                android:id="@+id/milesSinceRefill"
+                android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Miles Travelled"
+                android:id="@+id/tvResultMiles"
+                android:layout_gravity="center_horizontal|bottom"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gauge BEFORE REFUEL / AFTER REFUEL"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_gauge">
+        </TextView>
+        <TextView android:id="@+id/PREdatagauge"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="0-24"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   /   "
+                android:id="@+id/textView" android:layout_gravity="center_horizontal|bottom"/>
+        <TextView android:id="@+id/POSTdatagauge"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:layout_marginLeft="7dp"
+                  android:text="0-24"
+                  android:textColor="@android:color/white"
+                >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cost £"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_cost"/>
+        <TextView android:id="@+id/datacost"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="£00.00  "
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Cost Per Mile:  "
+                android:id="@+id/tvCostPerMile" android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCostPerMileOutput" android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Litres"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/listV_litres"/>
+
+        <TextView android:id="@+id/datalitres"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:text="0.0"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center_horizontal|top">
+        </TextView>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Litres Used Between Fills:   "
+                android:id="@+id/tvFuelUsed"
+                android:layout_gravity="center_horizontal|bottom"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tvfuelAmountUsed"
+                android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/tvResultAmntUsed"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btn_delete"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Delete"/>
+    </LinearLayout>
+</LinearLayout>

@@ -35,9 +35,8 @@ public class PumpDatabaseHelper extends SQLiteOpenHelper
 
    private ArrayList<VehicleDetails> myNewList;
 
-
    private ArrayList<VehicleDetails> database_List = new ArrayList<VehicleDetails>();
-   private ArrayList<VehicleDetails> calculated_Main_Litres_Used = new ArrayList<VehicleDetails>();
+
    private ArrayList<VehicleDetails> calculated_Secondary_Litres_Used = new ArrayList<VehicleDetails>();
    private ArrayList<VehicleDetails> calculated_Main_Miles = new ArrayList<VehicleDetails>();
    private ArrayList<VehicleDetails> calculated_Secondary_Miles = new ArrayList<VehicleDetails>();
@@ -136,6 +135,7 @@ public class PumpDatabaseHelper extends SQLiteOpenHelper
 
    public ArrayList<VehicleDetails> Result_Litres_Used_Main_Vehicle()
    {  // clear the calculated list
+      ArrayList<VehicleDetails> calculated_Main_Litres_Used = new ArrayList<VehicleDetails>();
       calculated_Main_Litres_Used.clear();
       // assigns the readable / writable database to db
       SQLiteDatabase db = this.getWritableDatabase();
@@ -156,11 +156,10 @@ public class PumpDatabaseHelper extends SQLiteOpenHelper
            {
             // cursor.moveToPrevious();
             // Cursor is set to start at index pos 0
-            myNewList = new ArrayList<VehicleDetails>();
             VehicleDetails currentItem = new VehicleDetails(); // look at current index
             VehicleDetails nextItem = new VehicleDetails();    // look to next index
 
-            VehicleDetails sendingCalc = new VehicleDetails();
+            //VehicleDetails sendingCalc = new VehicleDetails();
 
             //nextItem.outputLitreUsed = 0.00;                   // set to Zero as no calculation is possible in index 0
             //calculated_Main_Litres_Used.add(currentItem);      // add this to the list
@@ -169,6 +168,7 @@ public class PumpDatabaseHelper extends SQLiteOpenHelper
             do
             {
                // #1 columnDate assigned the cursor index position of databases colDate location
+               myNewList = new ArrayList<VehicleDetails>();
                int columnDate = cursor.getColumnIndex(colDate);
                // #2 then set the input date to the string value of that columnDate
                currentItem.setInputDate(cursor.getString(columnDate));
@@ -216,6 +216,7 @@ public class PumpDatabaseHelper extends SQLiteOpenHelper
                   // add the calculated value of litres used to calculated list
                   //                       // 10 miles / £5 x days
                   // costPerMile = String.valueOf((dist / cost) *1);
+                  //myNewList = calculated_Main_Litres_Used;
                   calculated_Main_Litres_Used.add(nextItem);
                   cursor.moveToPrevious();
                   //cursorMover++;

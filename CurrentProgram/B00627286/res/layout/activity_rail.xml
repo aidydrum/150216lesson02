@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PumpActivity"
+                android:background="#0001" android:layout_gravity="top">
+
+    <Button
+            android:id="@+id/btn_addsRecordRail"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="74dp"
+            android:layout_height="23dp"
+            android:text="@string/save"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="246dp" android:layout_below="@+id/rail_radioGroup"
+            android:layout_alignParentRight="true">
+    </Button>
+
+    <EditText
+            android:id="@+id/editTextRailFare"
+            android:hint="Ticket Cost"
+            android:textColorHint="#F3F4EC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#F3F4EC"
+            android:layout_alignLeft="@+id/rail_radioGroup"
+            android:layout_alignBottom="@+id/btn_addsRecordRail"
+            android:layout_below="@+id/rail_radioGroup">
+    </EditText>
+    <RadioGroup
+            android:id="@+id/rail_radioGroup"
+            style="?android:attr/radioButtonStyle"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true">
+        <RadioButton
+                android:id="@+id/singleR"
+                android:layout_width="wrap_content"
+                android:imeActionId="1"
+                android:layout_height="wrap_content"
+                android:text="A to B"
+                android:checked="false"/>
+        <RadioButton
+                android:id="@+id/returnR"
+                android:imeActionId="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A to B to A"
+                android:checked="false"/>
+        <RadioButton
+                android:id="@+id/weeklyR"
+                android:imeActionId="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekly (7) Days"
+                android:checked="false"/>
+        <RadioButton
+                android:id="@+id/monthlyR"
+                android:imeActionId="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly"/>
+    </RadioGroup>
+    <TextView
+            android:layout_width="160dp"
+            android:layout_height="17dp"
+            android:id="@+id/textViewDateRail"
+            android:inputType="datetime"
+            android:hint="Date"
+            android:textColorHint="#F3F4EC"
+            android:textColor="#F3F4EC"
+            android:layout_toRightOf="@+id/rail_radioGroup" android:layout_above="@+id/editTextRailFare"
+            android:layout_alignRight="@+id/btn_addsRecordRail" android:layout_toLeftOf="@+id/btn_addsRecordRail"/>
+    <ImageView
+            android:layout_width="91dp"
+            android:layout_height="93dp"
+            android:id="@+id/imageRailRail"
+            android:textColor="#F3F4EC"
+            android:contentDescription="imageRailRail"
+            android:src="@drawable/goodrail"
+            android:layout_alignLeft="@+id/btn_addsRecordRail" android:layout_above="@+id/editTextRailFare"
+            android:layout_alignRight="@+id/btn_addsRecordRail" android:layout_alignTop="@+id/rail_radioGroup"
+            android:layout_toRightOf="@+id/rail_radioGroup">
+    </ImageView>
+    <TextView
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRailMultiple"
+            android:layout_alignRight="@+id/btn_addsRecordRail"
+            android:layout_above="@+id/btn_addsRecordRail"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="325dp"/>
+</RelativeLayout>

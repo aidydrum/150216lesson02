@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PumpActivity"
+                android:background="#0001" android:layout_gravity="top">
+
+    <Button
+            android:id="@+id/btn_toOdometer"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:text="@string/save"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/veh_radioGroup">
+    </Button>
+
+    <RadioGroup
+            android:id="@+id/veh_radioGroup"
+            style="?android:attr/radioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:layout_alignLeft="@+id/textViewDate"
+            android:layout_below="@+id/textViewDate">
+
+        <RadioButton
+                android:id="@+id/veh_radbtn_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radbtnA" android:checked="false"/>
+
+        <RadioButton
+                android:id="@+id/veh_radbtn_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radbtnB"/>
+    </RadioGroup>
+    <TextView
+            android:id="@+id/tvCarId"
+            android:hint="Select Vehicle"
+            android:textColorHint="#F3F4EC"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#F3F4EC"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|italic"
+            android:layout_alignRight="@+id/btn_toOdometer" android:layout_above="@+id/btn_toOdometer"
+            android:layout_alignLeft="@+id/btn_toOdometer">
+    </TextView>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Select Vehicle"
+            android:id="@+id/tvSelectVeh"
+            android:textStyle="bold" android:layout_alignLeft="@+id/veh_radioGroup"
+            android:layout_below="@+id/veh_radioGroup"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+</RelativeLayout>

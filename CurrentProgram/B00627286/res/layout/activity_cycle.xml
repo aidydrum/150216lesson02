@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PumpActivity"
+                android:background="#0001" android:layout_gravity="top">
+
+    <Button
+            android:id="@+id/btn_addsRecordcycle"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="81dp"
+            android:layout_height="104dp"
+            android:text="@string/save"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="239dp"
+            android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp">
+    </Button>
+
+    <RadioGroup
+            android:id="@+id/cycle_radioGroup"
+            style="?android:attr/radioButtonStyle"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true">
+        <RadioButton
+                android:id="@+id/singleC"
+                android:layout_width="wrap_content"
+                android:imeActionId="1"
+                android:layout_height="wrap_content"
+                android:text="A to B"
+                android:checked="false"/>
+        <RadioButton
+                android:id="@+id/returnC"
+                android:imeActionId="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A to B to A"
+                android:checked="false"/>
+        <RadioButton
+                android:id="@+id/weeklyC"
+                android:imeActionId="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekly (7) Days" android:checked="false"/>
+        <RadioButton
+                android:id="@+id/monthlyC"
+                android:imeActionId="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly"/>
+    </RadioGroup>
+
+    <EditText
+            android:id="@+id/editTextCycling"
+            android:hint="Journey Cost"
+            android:textColorHint="#F3F4EC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#F3F4EC"
+            android:text="Any Cycle Costs" android:layout_alignLeft="@+id/bus_radioGroup"
+            android:layout_alignBottom="@+id/btn_addsRecordcycle">
+    </EditText>
+    <TextView
+            android:layout_width="160dp"
+            android:layout_height="34dp"
+            android:id="@+id/textViewDateCycle"
+            android:inputType="datetime"
+            android:hint="Date"
+            android:textColorHint="#F3F4EC"
+            android:textColor="#F3F4EC"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/editTextPeriph" android:layout_above="@+id/editTextPeriph"
+            android:layout_alignParentTop="true" android:layout_marginTop="134dp"/>
+    <ImageView
+            android:layout_width="91dp"
+            android:layout_height="93dp"
+            android:id="@+id/imageWalkCycle"
+            android:textColor="#F3F4EC"
+            android:contentDescription="imageBusRail"
+            android:src="@drawable/goodpublic"
+            android:layout_alignLeft="@+id/editTextPeriph" android:layout_alignParentTop="true">
+    </ImageView>
+    <TextView
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCycleMultiple"
+            android:layout_alignRight="@+id/btn_addsRecordcycle"
+            android:layout_above="@+id/btn_addsRecordcycle"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="325dp"/>
+</RelativeLayout>
