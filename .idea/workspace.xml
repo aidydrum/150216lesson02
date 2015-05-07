@@ -49,6 +49,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDetails.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDetails.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDistanceActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDistanceActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkResultListAdapter.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkResultListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="9d13456d-02ba-4b6a-b1f8-e475ce462a1e" name="Failed commit: Default" comment="LargeBanana02" />
@@ -206,7 +207,7 @@
       <file leaf-file-name="ViewPumpRecord.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewPumpRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.27315915" vertical-offset="2559" max-vertical-offset="4182">
+            <state vertical-scroll-proportion="-0.41366908" vertical-offset="2559" max-vertical-offset="4182">
               <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -617,10 +618,10 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32873562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3852459" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22094509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22068965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -631,7 +632,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41123882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19376528" sideWeight="0.56843406" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19376528" sideWeight="0.56843406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24884793" sideWeight="0.43612903" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -665,7 +666,8 @@
     <MESSAGE value="150216Tutorial01_Git" />
     <MESSAGE value="LargeBanana01" />
     <MESSAGE value="LargeBanana02" />
-    <option name="LAST_COMMIT_MESSAGE" value="LargeBanana02" />
+    <MESSAGE value="LargeBanana03" />
+    <option name="LAST_COMMIT_MESSAGE" value="LargeBanana03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1126,7 +1128,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewPumpRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.27315915" vertical-offset="2559" max-vertical-offset="4182">
+        <state vertical-scroll-proportion="-0.41366908" vertical-offset="2559" max-vertical-offset="4182">
           <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />

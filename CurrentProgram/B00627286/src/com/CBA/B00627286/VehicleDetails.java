@@ -7,142 +7,117 @@ package com.CBA.B00627286;
  * Time: 13:20
  * UPDATE COMMENT ABOUT PROGRAM HERE
  */
-public class VehicleDetails
-{
-   public String inputDate = "";
-   public String vehicleID = "";
-   public String odometerRead = "";
-   public String pretextGauge = "";
-   public String postTextGauge = "";
-   public String textCost = "";
-   public String textLitres = "";
-   public String outputDatediff = "";
+public class VehicleDetails {
+    protected String inputDate = "";
+    protected String vehicleID = "";
+    protected String odometerRead = "";
+    protected String pretextGauge = "";
+    protected String postTextGauge = "";
+    protected String textCost = "";
+    protected String textLitres = "";
+    protected String outputDatediff = "";
 
-   public double outputMiles = 000000.000;
-   public double outputLitreUsed = 0000.000;
-   public double outputFuelUsed = 0000.000;
-   public double outputCostPerMile = 0000.000;
+    protected double outputMiles = 000000.000;
+    protected double outputLitreUsed = 0000.000;
+    protected double outputFuelUsed = 0000.000;
+    protected double outputCostPerMile = 0000.000;
 
-   public String getInputDate()
-   {
-      return inputDate;
-   }
+    protected String getInputDate() {
+        return inputDate;
+    }
 
-   public void setInputDate(String zinputDate)
-   {
-      this.inputDate = zinputDate.trim();
-   }
+    protected void setInputDate(String zinputDate) {
+        this.inputDate = zinputDate.trim();
+    }
 
-   public String getVehicleID()
-   {
-      return vehicleID;
-   }
+    protected String getVehicleID() {
+        return vehicleID;
+    }
 
-   public void setVehicleID(String zvehicleID)
-   {
-      //this.vehicleID = zvehicleID.trim();
-      this.vehicleID = zvehicleID;
-   }
+    protected void setVehicleID(String zvehicleID) {
+        //this.vehicleID = zvehicleID.trim();
+        this.vehicleID = zvehicleID;
+    }
 
-   public String getOdometerRead()
-   {
-      return odometerRead;
-   }
+    protected String getOdometerRead() {
+        return odometerRead;
+    }
 
-   public void setOdometerRead(String zodometerRead)
-   {
-      this.odometerRead = zodometerRead;
-   }
+    protected void setOdometerRead(String zodometerRead) {
+        this.odometerRead = zodometerRead;
+    }
 
-   public String getPreGauge()
-   {
-      return pretextGauge;
-   }
+    protected String getPreGauge() {
+        return pretextGauge;
+    }
 
-   public void setPreTextGauge(String zpretextGauge)
-   {
-      this.pretextGauge = zpretextGauge;
-   }
+    protected void setPreTextGauge(String zpretextGauge) {
+        this.pretextGauge = zpretextGauge;
+    }
 
-   public String getPostTextGauge()
-   {
-      return postTextGauge;
-   }
+    protected String getPostTextGauge() {
+        return postTextGauge;
+    }
 
-   public void setPostTextGauge(String zpostTextGauge)
-   {
-      this.postTextGauge = zpostTextGauge;
-   }
+    protected void setPostTextGauge(String zpostTextGauge) {
+        this.postTextGauge = zpostTextGauge;
+    }
 
-   public String getTextCost()
-   {
-      return textCost;
-   }
+    protected String getTextCost() {
+        return textCost;
+    }
 
-   public void setTextCost(String ztextCost)
-   {
-      this.textCost = ztextCost;
-   }
+    protected void setTextCost(String ztextCost) {
+        this.textCost = ztextCost;
+    }
 
-   public String getTextLitres()
-   {
-      return textLitres;
-   }
+    protected String getTextLitres() {
+        return textLitres;
+    }
 
-   public void setTextLitres(String ztextLitres)
-   {
-      this.textLitres = ztextLitres;
-   }
+    protected void setTextLitres(String ztextLitres) {
+        this.textLitres = ztextLitres;
+    }
 
-   public String getOutputdatediff()
-   {
-      return outputDatediff;
-   }
+    protected String getOutputdatediff() {
+        return outputDatediff;
+    }
 
-   public void setOutputdatediff(String zoutputdatediff)
-   {
-      this.outputDatediff = zoutputdatediff;
-   }
+    protected void setOutputdatediff(String zoutputdatediff) {
+        this.outputDatediff = zoutputdatediff;
+    }
 
-   public double getOutputFuelUsed()
-   {
-      return outputFuelUsed;
-   }
+    protected double getOutputFuelUsed() {
+        return outputFuelUsed;
+    }
 
-   public void setOutputFuelUsed(double zoutputfuelused)
-   {
-      this.outputFuelUsed = zoutputfuelused;
-   }
+    protected void setOutputFuelUsed(double zoutputfuelused) {
+        this.outputFuelUsed = zoutputfuelused;
+    }
 
-   public double getOutputLitresUsed()
-   {
-      return outputLitreUsed;
-   }
+    protected double getOutputLitresUsed() {
+        return outputLitreUsed;
+    }
 
-   public void setOutputLitresUsed(double zoutputLitresused)
-   {
-      this.outputLitreUsed = zoutputLitresused;
-   }
+    protected void setOutputLitresUsed(double zoutputLitresused) {
+        this.outputLitreUsed = zoutputLitresused;
+    }
 
-   public double getOutputMiles()
-   {
-      return outputMiles;
-   }
+    protected double getOutputMiles() {
+        return outputMiles;
+    }
 
-   public void setOutputMiles(double zoutputMiles)
-   {
-      this.outputMiles = zoutputMiles;
-   }
+    protected void setOutputMiles(double zoutputMiles) {
+        this.outputMiles = zoutputMiles;
+    }
 
-   public double getOutputCostMiles()
-   {
-      return outputCostPerMile;
-   }
+    protected double getOutputCostMiles() {
+        return outputCostPerMile;
+    }
 
-   public void setOutputCostPerMile(double zoutputCostMiles)
-   {
-      this.outputCostPerMile = zoutputCostMiles;
-   }
+    protected void setOutputCostPerMile(double zoutputCostMiles) {
+        this.outputCostPerMile = zoutputCostMiles;
+    }
 }
 
 

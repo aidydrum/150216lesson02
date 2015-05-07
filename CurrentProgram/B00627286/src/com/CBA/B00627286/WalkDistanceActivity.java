@@ -19,50 +19,43 @@ import java.util.Date;
  * update comment about program here
  */
 
-public class WalkDistanceActivity extends Activity implements View.OnClickListener
-{
-   private Button btn_addDistance;
-   EditText txtDistance;
+public class WalkDistanceActivity extends Activity implements View.OnClickListener {
+    EditText txtDistance;
+    private Button btn_addDistance;
 
-   @Override
-   public void onCreate(Bundle savedInstanceState)
-   {
-      super.onCreate(savedInstanceState);
-      setContentView(R.layout.activitywalkdistance);
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activitywalkdistance);
 
-      btn_addDistance = (Button) findViewById(R.id.btn_WalkSave);
-      btn_addDistance.setOnClickListener(this);
+        btn_addDistance = (Button) findViewById(R.id.btn_WalkSave);
+        btn_addDistance.setOnClickListener(this);
 
-      txtDistance = (EditText) findViewById(R.id.edtTxtWalkHowFar);
-   }
+        txtDistance = (EditText) findViewById(R.id.edtTxtWalkHowFar);
+    }
 
-   @Override
-   public void onClick(View v)
-   {
-      // TODO Auto-generated method stub
-      switch (v.getId())
-      {
-         case R.id.btn_WalkSave:
+    @Override
+    public void onClick(View v) {
+        // TODO Auto-generated method stub
+        switch (v.getId()) {
+            case R.id.btn_WalkSave:
 
-            if (txtDistance.getText().toString().equals(""))
-            {
-               Toast.makeText(WalkDistanceActivity.this, "Please Enter Bus Fare:", Toast.LENGTH_LONG).show();
-            }
-            else
-            {                                               // 2014/01/10 12:59:00
-               SimpleDateFormat sdatef = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
-               Date d = new Date();
-               String date = sdatef.format(d);
-               String distance = txtDistance.getText().toString();
-               // leads to users bus ticket screen
-               Intent addIntent = new Intent(WalkDistanceActivity.this, CycleActivity.class);
-               addIntent.putExtra("currentTime", date);
-               addIntent.putExtra("walkDistance", distance);
-               startActivity(addIntent);
-            }
-            break;
-         default:
-            break;
-      }
-   }
+                if (txtDistance.getText().toString().equals("")) {
+                    Toast.makeText(WalkDistanceActivity.this, "Please Enter Bus Fare:", Toast.LENGTH_LONG).show();
+                } else {                                               // 2014/01/10 12:59:00
+                    SimpleDateFormat sdatef = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
+                    Date d = new Date();
+                    String date = sdatef.format(d);
+                    String distance = txtDistance.getText().toString();
+                    // leads to users bus ticket screen
+                    Intent addIntent = new Intent(WalkDistanceActivity.this, CycleActivity.class);
+                    addIntent.putExtra("currentTime", date);
+                    addIntent.putExtra("walkDistance", distance);
+                    startActivity(addIntent);
+                }
+                break;
+            default:
+                break;
+        }
+    }
 }
