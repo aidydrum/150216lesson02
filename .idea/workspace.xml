@@ -13,8 +13,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b52bf7-e433-4e2e-bc4b-e3573fc4337d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusDatabaseHelper.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusDatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusDetails.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusDistanceActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusDistanceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusRailActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusRailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusResultListAdapter.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/BusResultListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CycleActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CycleActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CycleDatabaseHelper.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CycleDatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CycleDetails.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CycleDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CycleDistanceActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CycleDistanceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CyclelResultListAdapter.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/CyclelResultListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/MainActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PrePumpActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PrePumpActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpCostAmountActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpCostAmountActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpDatabaseHelper.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpDatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpFuelGaugesActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpFuelGaugesActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpOdometerActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpOdometerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpResultListAdapter.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpResultListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpVehChoiceActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpVehChoiceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailDatabaseHelper.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailDatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailDetails.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailDistanceActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailDistanceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailResultListAdapter.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/RailResultListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/VehicleDetails.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/VehicleDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewBUSRecord.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewBUSRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewCYCLERecord.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewCYCLERecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewPumpRecord.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewPumpRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewRAILRecord.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewRAILRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewWalkRecord.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewWalkRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkCycleActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkCycleActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDatabaseHelper.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDetails.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDistanceActivity.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkDistanceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkResultListAdapter.java" afterPath="$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/WalkResultListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="9d13456d-02ba-4b6a-b1f8-e475ce462a1e" name="Failed commit: Default" comment="LargeBanana02" />
@@ -162,18 +196,9 @@
       <file leaf-file-name="PumpDatabaseHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpDatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3001" max-vertical-offset="10795">
-              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2161#2177#0" expanded="true" />
-                <element signature="e#2267#2283#0" expanded="true" />
-                <element signature="e#2361#2377#0" expanded="true" />
-                <element signature="e#2460#2476#0" expanded="true" />
-                <element signature="e#2548#2564#0" expanded="true" />
-                <element signature="e#2638#2654#0" expanded="true" />
-                <element signature="e#7031#7047#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="2839" max-vertical-offset="9979">
+              <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,9 +206,18 @@
       <file leaf-file-name="ViewPumpRecord.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewPumpRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30784708" vertical-offset="1054" max-vertical-offset="4420">
-              <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
-              <folding />
+            <state vertical-scroll-proportion="-0.27315915" vertical-offset="2559" max-vertical-offset="4182">
+              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2627#2643#0" expanded="true" />
+                <element signature="e#4803#4819#0" expanded="true" />
+                <element signature="e#6225#6241#0" expanded="true" />
+                <element signature="e#7068#7084#0" expanded="true" />
+                <element signature="e#7848#7864#0" expanded="true" />
+                <element signature="e#8613#8629#0" expanded="true" />
+                <element signature="e#9378#9394#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,13 +225,9 @@
       <file leaf-file-name="VehicleDetails.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/VehicleDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1547">
-              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding>
-                <element signature="e#2413#2414#0" expanded="true" />
-                <element signature="e#2448#2449#0" expanded="true" />
-                <element signature="e#2519#2520#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2210">
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -229,10 +259,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="51" />
-    <option name="width" value="1653" />
-    <option name="height" value="939" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -260,6 +290,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,8 +330,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,6 +347,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntries" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.BusActivity">
     <configuration default="false" name="BusActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
@@ -583,10 +614,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="51" width="1653" height="939" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3852459" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22094509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -600,7 +631,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41123882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19397363" sideWeight="0.56843406" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19376528" sideWeight="0.56843406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24884793" sideWeight="0.43612903" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -641,25 +672,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewPumpRecord.java</url>
-          <line>125</line>
+          <line>120</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpDatabaseHelper.java</url>
-          <line>223</line>
+          <line>204</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpDatabaseHelper.java</url>
-          <line>138</line>
+          <line>123</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpDatabaseHelper.java</url>
-          <line>159</line>
+          <line>142</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -680,16 +711,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10506">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2161#2177#0" expanded="true" />
-            <element signature="e#2267#2283#0" expanded="true" />
-            <element signature="e#2361#2377#0" expanded="true" />
-            <element signature="e#2460#2476#0" expanded="true" />
-            <element signature="e#2548#2564#0" expanded="true" />
-            <element signature="e#2638#2654#0" expanded="true" />
-            <element signature="e#7031#7047#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,11 +719,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1462">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#2413#2414#0" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2519#2520#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -709,16 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10285">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2161#2177#0" expanded="true" />
-            <element signature="e#2267#2283#0" expanded="true" />
-            <element signature="e#2361#2377#0" expanded="true" />
-            <element signature="e#2460#2476#0" expanded="true" />
-            <element signature="e#2548#2564#0" expanded="true" />
-            <element signature="e#2638#2654#0" expanded="true" />
-            <element signature="e#7031#7047#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +735,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="4420">
           <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2627#2643#0" expanded="true" />
+            <element signature="e#4803#4819#0" expanded="true" />
+            <element signature="e#6225#6241#0" expanded="true" />
+            <element signature="e#7068#7084#0" expanded="true" />
+            <element signature="e#7848#7864#0" expanded="true" />
+            <element signature="e#8613#8629#0" expanded="true" />
+            <element signature="e#9378#9394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -756,16 +774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10285">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2161#2177#0" expanded="true" />
-            <element signature="e#2267#2283#0" expanded="true" />
-            <element signature="e#2361#2377#0" expanded="true" />
-            <element signature="e#2460#2476#0" expanded="true" />
-            <element signature="e#2548#2564#0" expanded="true" />
-            <element signature="e#2638#2654#0" expanded="true" />
-            <element signature="e#7031#7047#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +782,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="4420">
           <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2627#2643#0" expanded="true" />
+            <element signature="e#4803#4819#0" expanded="true" />
+            <element signature="e#6225#6241#0" expanded="true" />
+            <element signature="e#7068#7084#0" expanded="true" />
+            <element signature="e#7848#7864#0" expanded="true" />
+            <element signature="e#8613#8629#0" expanded="true" />
+            <element signature="e#9378#9394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -803,16 +821,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10285">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2161#2177#0" expanded="true" />
-            <element signature="e#2267#2283#0" expanded="true" />
-            <element signature="e#2361#2377#0" expanded="true" />
-            <element signature="e#2460#2476#0" expanded="true" />
-            <element signature="e#2548#2564#0" expanded="true" />
-            <element signature="e#2638#2654#0" expanded="true" />
-            <element signature="e#7031#7047#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +829,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="4420">
           <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2627#2643#0" expanded="true" />
+            <element signature="e#4803#4819#0" expanded="true" />
+            <element signature="e#6225#6241#0" expanded="true" />
+            <element signature="e#7068#7084#0" expanded="true" />
+            <element signature="e#7848#7864#0" expanded="true" />
+            <element signature="e#8613#8629#0" expanded="true" />
+            <element signature="e#9378#9394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -850,16 +868,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10285">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2161#2177#0" expanded="true" />
-            <element signature="e#2267#2283#0" expanded="true" />
-            <element signature="e#2361#2377#0" expanded="true" />
-            <element signature="e#2460#2476#0" expanded="true" />
-            <element signature="e#2548#2564#0" expanded="true" />
-            <element signature="e#2638#2654#0" expanded="true" />
-            <element signature="e#7031#7047#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +876,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="4420">
           <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2627#2643#0" expanded="true" />
+            <element signature="e#4803#4819#0" expanded="true" />
+            <element signature="e#6225#6241#0" expanded="true" />
+            <element signature="e#7068#7084#0" expanded="true" />
+            <element signature="e#7848#7864#0" expanded="true" />
+            <element signature="e#8613#8629#0" expanded="true" />
+            <element signature="e#9378#9394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,16 +915,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10268">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2161#2177#0" expanded="true" />
-            <element signature="e#2267#2283#0" expanded="true" />
-            <element signature="e#2361#2377#0" expanded="true" />
-            <element signature="e#2460#2476#0" expanded="true" />
-            <element signature="e#2548#2564#0" expanded="true" />
-            <element signature="e#2638#2654#0" expanded="true" />
-            <element signature="e#7031#7047#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +923,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="4420">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2627#2643#0" expanded="true" />
+            <element signature="e#4803#4819#0" expanded="true" />
+            <element signature="e#6225#6241#0" expanded="true" />
+            <element signature="e#7068#7084#0" expanded="true" />
+            <element signature="e#7848#7864#0" expanded="true" />
+            <element signature="e#8613#8629#0" expanded="true" />
+            <element signature="e#9378#9394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,18 +1060,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/PumpDatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3001" max-vertical-offset="10795">
-          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2161#2177#0" expanded="true" />
-            <element signature="e#2267#2283#0" expanded="true" />
-            <element signature="e#2361#2377#0" expanded="true" />
-            <element signature="e#2460#2476#0" expanded="true" />
-            <element signature="e#2548#2564#0" expanded="true" />
-            <element signature="e#2638#2654#0" expanded="true" />
-            <element signature="e#7031#7047#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="2839" max-vertical-offset="9979">
+          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,21 +1118,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/VehicleDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1547">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="e#2413#2414#0" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2519#2520#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2210">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CurrentProgram/B00627286/src/com/CBA/B00627286/ViewPumpRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30784708" vertical-offset="1054" max-vertical-offset="4420">
-          <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
-          <folding />
+        <state vertical-scroll-proportion="-0.27315915" vertical-offset="2559" max-vertical-offset="4182">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2627#2643#0" expanded="true" />
+            <element signature="e#4803#4819#0" expanded="true" />
+            <element signature="e#6225#6241#0" expanded="true" />
+            <element signature="e#7068#7084#0" expanded="true" />
+            <element signature="e#7848#7864#0" expanded="true" />
+            <element signature="e#8613#8629#0" expanded="true" />
+            <element signature="e#9378#9394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
